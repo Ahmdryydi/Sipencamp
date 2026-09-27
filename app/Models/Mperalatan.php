@@ -13,6 +13,7 @@ class Mperalatan extends Model
 
     protected $guarded = ['id'];
 
+    // Relasi ke tabel kategori
     public function kategori()
     {
         return $this->belongsTo(Mkategori::class, 'id_kategori');
