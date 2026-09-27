@@ -45,7 +45,7 @@
       <ul class="dropdown-menu dropdown-menu-end dropdown-menu-profile" aria-labelledby="profile-dropdown">
         <li class="dropdown-header">Selamat Datang!</li>
         <li><a class="dropdown-item" href="#"><i class="bi bi-person"></i> Profil Saya</a></li>
-        <li><a class="dropdown-item" href="#"><i class="bi bi-gear"></i> Pengaturan</a></li>
+        <li><a class="dropdown-item" href="{{ route('user.index') }}"><i class="bi bi-gear"></i> Pengaturan</a></li>
         <li><hr class="dropdown-divider"></li>
         <li><a class="dropdown-item text-danger" href="#"><i class="bi bi-box-arrow-right"></i> Keluar</a></li>
       </ul>
